@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mBaiduMap.animateMapStatus(update);
         }
     };
-    private BitmapDescriptor dot = BitmapDescriptorFactory.fromResource(R.drawable.treasure_dot);
+    private BitmapDescriptor dot = BitmapDescriptorFactory.fromResource(R.drawable.pic3);
     private BitmapDescriptor dot_click = BitmapDescriptorFactory.fromResource(R.drawable.treasure_expanded);
 
     private void addOverLay(LatLng latLng) {
